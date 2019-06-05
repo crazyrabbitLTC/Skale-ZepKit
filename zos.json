@@ -1,0 +1,8 @@
+{
+  "zosversion": "2.2",
+  "name": "skale",
+  "version": "1.0.0",
+  "contracts": {
+    "HelloWorld": "HelloWorld"
+  }
+}

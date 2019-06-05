@@ -1,0 +1,35 @@
+{
+  "contracts": {
+    "HelloWorld": {
+      "address": "0xF0c5717965f6DF28d2e6E191DedAE4386EFe2508",
+      "constructorCode": "608060405234801561001057600080fd5b506101f2806100206000396000f3fe",
+      "bodyBytecodeHash": "e18a7291c5c8107e874a0be7615735fac0681de857a85febb28fb67e377b5687",
+      "localBytecodeHash": "80860c641ceb14c22252e741bd1ac2478502c235205ae44a2b80ec7527c3b4ee",
+      "deployedBytecodeHash": "80860c641ceb14c22252e741bd1ac2478502c235205ae44a2b80ec7527c3b4ee",
+      "types": {},
+      "storage": [],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "skale/HelloWorld": [
+      {
+        "address": "0x6e99feb8B3765dee651c1a89689ef4FE76C32959",
+        "version": "1.0.0",
+        "implementation": "0xF0c5717965f6DF28d2e6E191DedAE4386EFe2508"
+      }
+    ]
+  },
+  "zosversion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x52Abe6cB88a19d175E2bc122307C792AB7dA9C12"
+  }
+}
